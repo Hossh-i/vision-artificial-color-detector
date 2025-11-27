@@ -1,4 +1,4 @@
-# 🎨 vision-artificial-color-detector  
+# 🎨 Detector de color - Visión artificial 
 ### Sistema de detección de objetos y clasificación de color en tiempo real usando YOLOv8 + K-Means
 
 **Autores:** Fernanda Ríos, Alonso Avello, Pablo Arias, Rivaldo Rodríguez 
