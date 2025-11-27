@@ -88,7 +88,7 @@ Ver archivo:
 
 ---
 
-##📊 Dashboard en Tiempo Real
+## 📊 Dashboard en Tiempo Real
 El panel lateral muestra:
 - Conteo acumulado de objetos por color
 - FPS del sistema
