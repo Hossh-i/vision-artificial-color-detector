@@ -66,14 +66,14 @@ Las instrucciones detalladas están en:
 
 🔗 **instalacion_anaconda.md**
 
---
+---
 
 ## ▶ Ejecución
 Ejecutar en el terminal o Spyder:
 python main.py
 Cerrar con la tecla q.
 
---
+---
 
 ## 🧪 Pruebas Iniciales
 Las pruebas documentadas incluyen:
@@ -86,7 +86,7 @@ Las pruebas documentadas incluyen:
 Ver archivo:
 🔗 pruebas_iniciales_spyder.md
 
---
+---
 
 ##📊 Dashboard en Tiempo Real
 El panel lateral muestra:
@@ -95,7 +95,7 @@ El panel lateral muestra:
 - Color asignado a cada bounding box
 - Visualización limpia y estable
   
---
+---
 
 ## 📈 Métricas
 | Métrica         | Valor                                  |
@@ -105,7 +105,7 @@ El panel lateral muestra:
 | Detección YOLO  | Modelo YOLOv8n pre-entrenado           |
 | Ruido reducido  | Filtro de objetos pequeños + conf=0.45 |
 
---
+---
 
 ## 🎥 Video Demo (pendiente)
 El video demostrará:
@@ -115,7 +115,7 @@ El video demostrará:
 - FPS estables
 - Cierre con tecla q
   
---
+---
 
 ## ✔ Conclusiones
 - El sistema cumple con todos los requisitos del taller.
@@ -124,7 +124,7 @@ El video demostrará:
 - El dashboard entrega una visualización clara y útil.
 - Se logró mantener un rendimiento estable en tiempo real.
   
---
+---
 
 ## 🚀 Próximas Mejoras
 - Tracking (SORT/DeepSORT) para evitar doble conteo.
@@ -132,7 +132,7 @@ El video demostrará:
 - Ajuste automático de color según luz ambiente.
 - Implementar interfaz gráfica (PyQt5).
   
---
+---
 
 ## 📄 Licencia
 Proyecto académico. Uso libre con fines educativos.
