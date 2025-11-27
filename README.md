@@ -34,7 +34,7 @@ Este es el proyecto desarrollado para el Taller 2 del curso de Visión Artificia
 3. Determinar el color dominante de forma robusta.
 4. Construir un dashboard informativo en tiempo real.
 5. Mantener un rendimiento visual estable (10–20 FPS).
-
+   
 ---
 
 ## 🧠 Arquitectura del Sistema
@@ -46,7 +46,7 @@ Cámara → YOLOv8 → Bounding Box → ROI → HSV → K-Means → Clasificaci�
 - Aplicamos **K-Means (k=2)** para hallar el color dominante.  
 - Clasificamos según rangos de tono, saturación y valor.
 - Se actualiza un **panel lateral** con conteos y FPS.
-
+  
 ---
 
 ## 🖥 Tecnologías Utilizadas
@@ -57,7 +57,7 @@ Cámara → YOLOv8 → Bounding Box → ROI → HSV → K-Means → Clasificaci�
 - **NumPy**
 - **Scikit-Learn (K-Means)**
 - Anaconda + Spyder
-
+  
 ---
 
 ## 🛠 Instalación del Proyecto
@@ -66,11 +66,14 @@ Las instrucciones detalladas están en:
 
 🔗 **instalacion_anaconda.md**
 
+--
 
 ## ▶ Ejecución
 Ejecutar en el terminal o Spyder:
 python main.py
 Cerrar con la tecla q.
+
+--
 
 ## 🧪 Pruebas Iniciales
 Las pruebas documentadas incluyen:
@@ -83,12 +86,16 @@ Las pruebas documentadas incluyen:
 Ver archivo:
 🔗 pruebas_iniciales_spyder.md
 
+--
+
 ##📊 Dashboard en Tiempo Real
 El panel lateral muestra:
 - Conteo acumulado de objetos por color
 - FPS del sistema
 - Color asignado a cada bounding box
 - Visualización limpia y estable
+  
+--
 
 ## 📈 Métricas
 | Métrica         | Valor                                  |
@@ -98,6 +105,8 @@ El panel lateral muestra:
 | Detección YOLO  | Modelo YOLOv8n pre-entrenado           |
 | Ruido reducido  | Filtro de objetos pequeños + conf=0.45 |
 
+--
+
 ## 🎥 Video Demo (pendiente)
 El video demostrará:
 - Detección en tiempo real
@@ -105,7 +114,8 @@ El video demostrará:
 - Dashboard actualizándose
 - FPS estables
 - Cierre con tecla q
-
+  
+--
 
 ## ✔ Conclusiones
 - El sistema cumple con todos los requisitos del taller.
@@ -113,12 +123,16 @@ El video demostrará:
 - El análisis de color en HSV con K-Means mejora la precisión.
 - El dashboard entrega una visualización clara y útil.
 - Se logró mantener un rendimiento estable en tiempo real.
+  
+--
 
 ## 🚀 Próximas Mejoras
 - Tracking (SORT/DeepSORT) para evitar doble conteo.
 - Guardar estadísticas en archivo CSV.
 - Ajuste automático de color según luz ambiente.
 - Implementar interfaz gráfica (PyQt5).
+  
+--
 
 ## 📄 Licencia
 Proyecto académico. Uso libre con fines educativos.
