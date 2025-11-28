@@ -1,5 +1,5 @@
 Pruebas Iniciales del Proyecto en Spyder
-Autores: Fernanda Ríos, Alonso Avello, Pablo Arias, Rivaldo Rodríguez  
+Autores: Fernanda Ríos, Alonso Avello, Pablo Arias, Sebastián Lara  
 Curso: Visión Artificial – Taller 2  
 Archivo: pruebas_iniciales_spyder.md
 
@@ -137,3 +137,4 @@ if torch.cuda.is_available():
 - Cerrar las ventanas SIEMPRE con tecla **"q"**.  
 - Spyder puede congelarse si abusas del GUI; para la demo final usar Terminal es más estable.
 ---
+
