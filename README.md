@@ -1,7 +1,7 @@
 # 🎨 Detector de color - Visión artificial 
 ### Sistema de detección de objetos y clasificación de color en tiempo real usando YOLOv8 + K-Means
 
-**Autores:** Fernanda Ríos, Alonso Avello, Pablo Arias, Rivaldo Rodríguez                                                                                                                                                                                               
+**Autores:** Fernanda Ríos, Alonso Avello, Pablo Arias, Sebastián Lara                                                                                                                                                                                               
 **Curso:** Visión Artificial – Taller 2  
 **Lenguaje:** Python  
 **Tecnologías:** YOLOv8, OpenCV, Scikit-Learn, HSV Color Space  
