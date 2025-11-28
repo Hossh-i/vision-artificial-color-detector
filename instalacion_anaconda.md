@@ -1,6 +1,6 @@
 # ---------------------------------------------------------
 # INSTALACIÓN DEL ENTORNO PARA PROYECTO DE VISIÓN ARTIFICIAL
-# YOLOv8 + OpenCV + K-Means (Fernanda Ríos, Alonso Avello, Pablo Arias, Rivaldo Rodríguez)
+YOLOv8 + OpenCV + K-Means (Fernanda Ríos, Alonso Avello, Pablo Arias, Sebastián Lara)
 # ---------------------------------------------------------
 
 # 1. Crear un entorno nuevo en Anaconda
@@ -25,5 +25,6 @@ pip install scipy
 
 # 6. Instalar FilterPy (si se usa tracking SORT en un futuro)
 pip install filterpy
+
 
 
